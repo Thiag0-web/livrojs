@@ -1,0 +1,9 @@
+<script>
+    const produto = Number(prompt("Digite o preço do produto: "))
+    const vista =   produto - (produto * 0.1 )
+    const parcelado = produto / 3
+    alert(`
+    Preço R$: ${produto} \n
+    À Vista R$: ${vista} \n
+    Ou 3x de R$: ${parcelado.toFixed(2)}`) 
+</script>

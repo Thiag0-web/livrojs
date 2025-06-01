@@ -1,0 +1,12 @@
+<script>
+    let valorJantar = Number(prompt("Valor do jantar: "))            // lê o valor do jantar
+    const taxaGarcom = Number(0.1)                                   
+    let calcularTaxaGarcom = valorJantar*taxaGarcom
+    let totalPagar = valorJantar + calcularTaxaGarcom
+    alert(
+        `Valor do Jantar R$: ${valorJantar.toFixed(2)} \n
+        Taxa do garçom R$: ${calcularTaxaGarcom.toFixed(2)} \n
+        Total a Pagar R$: ${totalPagar.toFixed(2)}    
+    `)
+
+</script>
